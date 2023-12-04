@@ -431,6 +431,22 @@ img {
 }
 
 
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 75%; /* Esta proporción mantiene la relación de aspecto 16:9 (calculado como 9 / 16 * 100%) */
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
 /*---------------------------------------
   ABOUT              
 -----------------------------------------*/
